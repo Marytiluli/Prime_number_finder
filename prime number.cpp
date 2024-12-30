@@ -32,4 +32,7 @@ void generatePrimes(int limit) {
     cout << endl;
 }
 
+int main() {
+
+
 
