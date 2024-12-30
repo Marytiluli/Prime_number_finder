@@ -33,6 +33,9 @@ void generatePrimes(int limit) {
 }
 
 int main() {
+	int limit;
+    cout << "Enter the upper limit to find prime numbers: ";
+
 
 
 
