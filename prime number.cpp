@@ -1,4 +1,5 @@
 #include <iostream>
+// Including standard input-output and vector libraries
 #include <vector>
 using namespace std;
 
