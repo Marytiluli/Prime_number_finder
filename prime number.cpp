@@ -24,4 +24,12 @@ void generatePrimes(int limit) {
     
     // Display prime numbers
     cout << "Prime numbers up to " << limit << ":" << endl;
+    for (int i = 2; i <= limit; i++) {
+        if (isPrime[i]) {
+            cout << i << " ";
+        }
+    }
+    cout << endl;
+}
+
 
