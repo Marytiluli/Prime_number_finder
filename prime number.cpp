@@ -28,6 +28,7 @@ void generatePrimes(int limit) {
     
     // Display prime numbers
     cout << "Prime numbers up to " << limit << ":" << endl;
+    // After marking non-primes, display the remaining prime numbers
     for (int i = 2; i <= limit; i++) {
         if (isPrime[i]) {
             cout << i << " ";
