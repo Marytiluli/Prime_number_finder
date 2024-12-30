@@ -37,6 +37,7 @@ void generatePrimes(int limit) {
     cout << endl;
 }
 
+// This program demonstrates generating prime numbers using the Sieve of Eratosthenes algorithm
 int main() {
 // Main function to handle user input and invoke the generatePrimes function
 	int limit;
