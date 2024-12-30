@@ -24,6 +24,7 @@ void generatePrimes(int limit) {
             }
         }
     }
+    // Loop through numbers and mark non-primes. If a number is prime, mark all its multiples as non-prime
     
     // Display prime numbers
     cout << "Prime numbers up to " << limit << ":" << endl;
