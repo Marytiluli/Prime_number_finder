@@ -5,13 +5,14 @@ using namespace std;
 
 // Function to generate prime numbers up to a given limit using the Sieve of Eratosthenes
 void generatePrimes(int limit) {
-{ // Sieve of Eratosthenes is an ancient algorithm used to find all prime numbers up to a given limit
+// Sieve of Eratosthenes is an ancient algorithm used to find all prime numbers up to a given limit
 	if (limit < 2) {
         cout << "No prime numbers available up to " << limit << "." << endl;
         return;
     }
     
     vector<bool> isPrime(limit + 1, true); // Initialize a boolean vector
+    // Initialize a boolean vector isPrime to mark prime numbers. Initially, assume all numbers are prime
     isPrime[0] = isPrime[1] = false;       // 0 and 1 are not prime numbers
 
 
