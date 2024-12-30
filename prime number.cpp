@@ -21,3 +21,7 @@ void generatePrimes(int limit) {
             }
         }
     }
+    
+    // Display prime numbers
+    cout << "Prime numbers up to " << limit << ":" << endl;
+
