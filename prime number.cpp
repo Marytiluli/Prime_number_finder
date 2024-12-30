@@ -14,7 +14,7 @@ void generatePrimes(int limit) {
     vector<bool> isPrime(limit + 1, true); // Initialize a boolean vector
     // Initialize a boolean vector isPrime to mark prime numbers. Initially, assume all numbers are prime
     isPrime[0] = isPrime[1] = false;       // 0 and 1 are not prime numbers
-
+    // 0 and 1 are not prime numbers, so mark them as false
 
     // Mark non-prime numbers
     for (int i = 2; i * i <= limit; i++) {
